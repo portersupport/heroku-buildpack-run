@@ -1,0 +1,19 @@
+api = "0.4"
+
+[buildpack]
+id = "portersupport/heroku-buildpack-run"
+version = "0.1.0"
+name = "Heroku Buildpack Run"
+homepage = "https://github.com/weibeld/heroku-buildpack-run"
+
+[[buildpack.licenses]]
+type = "MIT"
+
+[[stacks]]
+id = "heroku-18"
+
+[[stacks]]
+id = "heroku-20"
+
+[[stacks]]
+id = "io.buildpacks.stacks.bionic"
