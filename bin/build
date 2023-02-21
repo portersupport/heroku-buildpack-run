@@ -20,8 +20,6 @@ export BUILD_DIR=$1
 export CACHE_DIR=$2
 export ENV_DIR=$3
 
-cd "$BUILD_DIR"
-
 # If BUILDPACK_RUN_LOAD_CONFIG is set, create env vars for all of the app's
 # config vars (except thos specified in BUILDPACK_RUN_LOAD_CONFIG_SKIP). The
 # env vars are not created immediately, but the commands to create them are
