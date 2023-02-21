@@ -22,6 +22,7 @@ export ENV_DIR=$3
 
 pwd
 ls
+echo $PATH
 
 # If BUILDPACK_RUN_LOAD_CONFIG is set, create env vars for all of the app's
 # config vars (except thos specified in BUILDPACK_RUN_LOAD_CONFIG_SKIP). The
