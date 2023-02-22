@@ -23,9 +23,7 @@ export ENV_DIR=$3
 pwd
 ls
 echo $PATH
-ls /home/heroku/.heroku/python/bin
-ls /layers
-ls /layers/heroku_python
+cat /layers/heroku_python/project_metadata.toml
 
 # If BUILDPACK_RUN_LOAD_CONFIG is set, create env vars for all of the app's
 # config vars (except thos specified in BUILDPACK_RUN_LOAD_CONFIG_SKIP). The
