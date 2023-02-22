@@ -25,6 +25,7 @@ ls
 echo $PATH
 ls /home/heroku/.heroku/python/bin
 ls /layers
+ls /layers/heroku_python
 
 # If BUILDPACK_RUN_LOAD_CONFIG is set, create env vars for all of the app's
 # config vars (except thos specified in BUILDPACK_RUN_LOAD_CONFIG_SKIP). The
